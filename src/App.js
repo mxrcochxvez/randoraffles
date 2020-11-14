@@ -56,7 +56,7 @@ function App() {
           </ol>
         </div>
         <div>
-          { list ? <button onClick={list ? spin : null}>Spin</button> : <span></span> }
+          { list.length ? <button onClick={list ? spin : null}>Spin</button> : <span></span> }
         </div>
       </div>
     </div>
