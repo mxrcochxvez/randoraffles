@@ -42,7 +42,7 @@ function App() {
         </div>
         <div className="textarea_container">
           <label>Players: </label>
-          <textarea onChange={(e) => setPlayers(e.currentTarget.value)} />
+          <textarea placeholder="After typing name hit enter for a new name." onChange={(e) => setPlayers(e.currentTarget.value)} />
         </div>
         <button onClick={players ? breakUpPlayers : null}>Submit</button>
       </div>
