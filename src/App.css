@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#App {
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.textarea_container {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.textarea_container textarea {
+    width: 20vw;
+    margin-left: 5px;
+    height: 15vh;
+}
+
+button {
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button:focus {
+    background-color: darkblue;
+}
+
+.roster {
+    margin-top: 2rem;
+}
+
+.roster h2 {
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 698px) {
+    .textarea_container textarea {
+        width: 60vw;
+        height: 30vh;
+    }
+}
